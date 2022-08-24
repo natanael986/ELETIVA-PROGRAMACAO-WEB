@@ -29,7 +29,7 @@ Route::prefix('usuarios')->group(function(){
 });
 
 Route::get('/contato/{paramA}/{paramB}', function($paramA, $paramB){
-    return 'Parametros: '. $paramA. '-'. $paramB;
+    return 'Parametros: '. $paramA. ' - '. $paramB;
 });
 
 Route::get('/users/{id}', function($id){
